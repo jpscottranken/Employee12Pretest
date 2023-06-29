@@ -1,0 +1,11 @@
+C:\Users\jpscott\Desktop\Employee12Pretest\Employee12PretestSolution\Employee12PretestProject\bin\Debug\Employee12PretestProject.exe.config
+C:\Users\jpscott\Desktop\Employee12Pretest\Employee12PretestSolution\Employee12PretestProject\bin\Debug\Employee12PretestProject.exe
+C:\Users\jpscott\Desktop\Employee12Pretest\Employee12PretestSolution\Employee12PretestProject\bin\Debug\Employee12PretestProject.pdb
+C:\Users\jpscott\Desktop\Employee12Pretest\Employee12PretestSolution\Employee12PretestProject\obj\Debug\Employee12PretestProject.csproj.AssemblyReference.cache
+C:\Users\jpscott\Desktop\Employee12Pretest\Employee12PretestSolution\Employee12PretestProject\obj\Debug\Employee12PretestProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\jpscott\Desktop\Employee12Pretest\Employee12PretestSolution\Employee12PretestProject\obj\Debug\Employee12PretestProject.frmEmployee.resources
+C:\Users\jpscott\Desktop\Employee12Pretest\Employee12PretestSolution\Employee12PretestProject\obj\Debug\Employee12PretestProject.Properties.Resources.resources
+C:\Users\jpscott\Desktop\Employee12Pretest\Employee12PretestSolution\Employee12PretestProject\obj\Debug\Employee12PretestProject.csproj.GenerateResource.cache
+C:\Users\jpscott\Desktop\Employee12Pretest\Employee12PretestSolution\Employee12PretestProject\obj\Debug\Employee12PretestProject.csproj.CoreCompileInputs.cache
+C:\Users\jpscott\Desktop\Employee12Pretest\Employee12PretestSolution\Employee12PretestProject\obj\Debug\Employee12PretestProject.exe
+C:\Users\jpscott\Desktop\Employee12Pretest\Employee12PretestSolution\Employee12PretestProject\obj\Debug\Employee12PretestProject.pdb
