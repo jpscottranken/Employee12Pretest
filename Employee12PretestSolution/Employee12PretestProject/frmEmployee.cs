@@ -99,13 +99,6 @@ namespace Employee12PretestProject
                                 txtHoursWorked.Text,
                                 txtHoursWorked.Tag.ToString());
 
-            //  Validate the value in the hours worked 
-            //  textbox is within range (>= 0 && <= 84).
-            errMsg += Validator.IsWithinRange(
-                                txtHoursWorked.Text,
-                                txtHoursWorked.Tag.ToString(),
-                                MINHOURS, MAXHOURS);
-
             //  Validate the value in the hourly rate 
             //  textbox is numeric (decimal).
             errMsg += Validator.IsDecimal(
@@ -115,11 +108,18 @@ namespace Employee12PretestProject
             //  Validate the value in the hours worked 
             //  textbox is within range (>= 0 && <= 84).
             errMsg += Validator.IsWithinRange(
+                                txtHoursWorked.Text,
+                                txtHoursWorked.Tag.ToString(),
+                                MINHOURS, MAXHOURS);
+
+            //  Validate the value in the hours worked 
+            //  textbox is within range (>= 0 && <= 84).
+            errMsg += Validator.IsWithinRange(
                                 txtHourlyRate.Text,
                                 txtHourlyRate.Tag.ToString(),
                                 MINHRATE, MAXHRATE);
 
-            if (errMsg.Trim() != "")
+            if (errMsg != "")
             {
                 //  There were one or more validationerrors
                 MessageBox.Show(errMsg, "INPUT ERROR(s)",

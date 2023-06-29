@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows.Forms;
 
 namespace Employee12PretestProject
 {
@@ -40,18 +41,27 @@ namespace Employee12PretestProject
             return msg;
         }
 
-        public static string IsWithinRange(string value, string name,
-                                          decimal min, decimal max)
-        {
-            decimal number;
-            string msg = "";
+        // The IsInt32 was omitted from this program.
+        //public static string IsInt32(string value, string name)
+        //{
+        //    string msg = "";
+        //    if (!Int32.TryParse(value, out _))
+        //    {
+        //        msg += name + " must be a valid integer value." + LineEnd;
+        //    }
 
-            if (!Decimal.TryParse(value, out number))
+        //    return msg;
+        //}
+
+        public static string IsWithinRange(string value, string name, decimal min,
+            decimal max)
+        {
+            string msg = "";
+            if (Decimal.TryParse(value, out decimal number))
             {
-                if ((number < min) || (number > max))
+                if (number < min || number > max)
                 {
-                    msg += name + " must be between " +
-                           min + " and " + max + "." + LineEnd;
+                    msg += name + " must be between " + min + " and " + max + "." + LineEnd;
                 }
             }
 
